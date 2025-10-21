@@ -133,7 +133,7 @@ Menghapus data sepatu.
 ### 1\. Clone Repository
 
 ```bash
-git clone <https://github.com/Dhindachyaa/shoe-laundry-api-mod1>
+git clone https://github.com/Dhindachyaa/shoe-laundry-api-mod1
 cd shoe-laundry-api
 ```
 
@@ -174,7 +174,7 @@ http://localhost:3000
 Setelah deploy ke Vercel (atau platform lain), API dapat diakses di URL publik:
 
 ```
-(https://shoe-laundry-api-mod1.vercel.app/)
+https://shoe-laundry-api-mod1.vercel.app/
 ```
 
 ```
