@@ -1,5 +1,4 @@
 # Shoe Laundry API Responsi Prak PPB Modul 1
-# Dhinda Cahya Ramadhani (21120123120018)
 
 ## Deskripsi
 Proyek ini merupakan **REST API** sederhana untuk layanan **daftar barang cuci sepatu**. 
