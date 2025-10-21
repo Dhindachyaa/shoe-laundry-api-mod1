@@ -1,7 +1,6 @@
 import { ItemModel } from "../models/itemModel.js";
 
 export const ItemController = {
-    // GET /api/items?status=Selesai
     async getAll(req, res) {
         try {
             const { status } = req.query; 
@@ -13,7 +12,6 @@ export const ItemController = {
         }
     },
 
-    // GET /api/items/:id
     async getById(req, res) {
         try {
             const { id } = req.params;
@@ -24,7 +22,6 @@ export const ItemController = {
         }
     },
 
-    // POST /api/items (Create)
     async create(req, res) {
     try {
         const { nama } = req.body;
@@ -40,7 +37,6 @@ export const ItemController = {
     }
 },
 
-    // PUT /api/items/:id (Update)
     async update(req, res) {
     try {
         const { id } = req.params;
@@ -51,7 +47,6 @@ export const ItemController = {
     }
 },
 
-    // DELETE /api/items/:id (Delete)
     async remove(req, res) {
     try {
         const { id } = req.params;

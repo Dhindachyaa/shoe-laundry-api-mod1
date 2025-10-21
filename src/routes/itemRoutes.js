@@ -3,8 +3,7 @@ import { ItemController } from "../controllers/itemController.js";
 
 const router = express.Router();
 
-// Define CRUD Endpoints
-router.get("/", ItemController.getAll); // GET /api/items dan GET /api/items?status=Selesai
+router.get("/", ItemController.getAll); 
 router.get("/:id", ItemController.getById);
 router.post("/", ItemController.create);
 router.put("/:id", ItemController.update);
