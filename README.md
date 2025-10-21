@@ -176,6 +176,3 @@ Setelah deploy ke Vercel (atau platform lain), API dapat diakses di URL publik:
 ```
 https://shoe-laundry-api-mod1.vercel.app/
 ```
-
-```
-```
